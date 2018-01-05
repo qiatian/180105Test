@@ -1,0 +1,24 @@
+//
+//  BuDeJie.pch
+//  Accumulation
+//
+//  Created by sanjingrihua on 17/3/2.
+//  Copyright © 2017年 sanjingrihua. All rights reserved.
+//
+
+#define LLQLog(...) NSLog(__VA_ARGS__)
+
+#ifndef BuDeJie_pch
+#define BuDeJie_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* BuDeJie_pch 
+ pch步骤：1.提前设置编译pch  prefix header
+ pch作用：1.存放公用宏 2.存放公用头文件 3.自定义log
+*/
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+#import <objc/message.h>
+
