@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894B751F2063BB53004D9927 /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894B751E2063BB53004D9927 /* SocketViewController.m */; };
 		899004941FF4EF10006AE9BE /* CMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899004931FF4EF10006AE9BE /* CMViewController.swift */; };
+		8990169C20452F1D002A141B /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990169B20452F1D002A141B /* TestModel.m */; };
+		89918BA12061F2610088A695 /* BasisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89918BA02061F2610088A695 /* BasisViewController.m */; };
+		89A18DD320085D8900BAFCA5 /* LLQDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A18DD220085D8900BAFCA5 /* LLQDownLoader.m */; };
 		89B8914B1FF3508E00F7E3CC /* LQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B8914A1FF3508E00F7E3CC /* LQPlayer.m */; };
 		89BEA4E01FF5DE4A00B3335E /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89BEA4DF1FF5DE4A00B3335E /* puppy.jpg */; };
 		89BEA4E81FF5F75B00B3335E /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89BEA4E71FF5F75B00B3335E /* Inceptionv3.mlmodel */; };
+		89C343DE20035986000F2CB1 /* LQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C343DD20035986000F2CB1 /* LQTabBar.m */; };
 		89CBF4881FECDC5E001C0F4F /* LQThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CBF4871FECDC5E001C0F4F /* LQThread.m */; };
 		89D43C5D1FC2D49100C72415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D43C5C1FC2D49100C72415 /* AppDelegate.m */; };
 		89D43C601FC2D49100C72415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D43C5F1FC2D49100C72415 /* ViewController.m */; };
@@ -122,12 +127,22 @@
 /* Begin PBXFileReference section */
 		1567F374898178947827529A /* Pods-Accumulate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accumulate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Accumulate/Pods-Accumulate.debug.xcconfig"; sourceTree = "<group>"; };
 		69DF942614FA1E79BF9E773A /* Pods_Accumulate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accumulate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894B751D2063BB53004D9927 /* SocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketViewController.h; sourceTree = "<group>"; };
+		894B751E2063BB53004D9927 /* SocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketViewController.m; sourceTree = "<group>"; };
 		899004921FF4EF0F006AE9BE /* Accumulate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accumulate-Bridging-Header.h"; sourceTree = "<group>"; };
 		899004931FF4EF10006AE9BE /* CMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMViewController.swift; sourceTree = "<group>"; };
+		8990169A20452F1D002A141B /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		8990169B20452F1D002A141B /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		89918B9F2061F2610088A695 /* BasisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasisViewController.h; sourceTree = "<group>"; };
+		89918BA02061F2610088A695 /* BasisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasisViewController.m; sourceTree = "<group>"; };
+		89A18DD120085D8900BAFCA5 /* LLQDownLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLQDownLoader.h; sourceTree = "<group>"; };
+		89A18DD220085D8900BAFCA5 /* LLQDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLQDownLoader.m; sourceTree = "<group>"; };
 		89B891491FF3508E00F7E3CC /* LQPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQPlayer.h; sourceTree = "<group>"; };
 		89B8914A1FF3508E00F7E3CC /* LQPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQPlayer.m; sourceTree = "<group>"; };
 		89BEA4DF1FF5DE4A00B3335E /* puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy.jpg; sourceTree = "<group>"; };
 		89BEA4E71FF5F75B00B3335E /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		89C343DC20035986000F2CB1 /* LQTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQTabBar.h; sourceTree = "<group>"; };
+		89C343DD20035986000F2CB1 /* LQTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTabBar.m; sourceTree = "<group>"; };
 		89CBF4861FECDC5E001C0F4F /* LQThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQThread.h; sourceTree = "<group>"; };
 		89CBF4871FECDC5E001C0F4F /* LQThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQThread.m; sourceTree = "<group>"; };
 		89D43C581FC2D49100C72415 /* Accumulate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accumulate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -366,6 +381,26 @@
 			path = CoreML;
 			sourceTree = "<group>";
 		};
+		89918B9E2061F2050088A695 /* BaseStudy */ = {
+			isa = PBXGroup;
+			children = (
+				89918B9F2061F2610088A695 /* BasisViewController.h */,
+				89918BA02061F2610088A695 /* BasisViewController.m */,
+			);
+			path = BaseStudy;
+			sourceTree = "<group>";
+		};
+		89A18DD020085D6700BAFCA5 /* DownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				89A18DD120085D8900BAFCA5 /* LLQDownLoader.h */,
+				89A18DD220085D8900BAFCA5 /* LLQDownLoader.m */,
+				894B751D2063BB53004D9927 /* SocketViewController.h */,
+				894B751E2063BB53004D9927 /* SocketViewController.m */,
+			);
+			path = DownLoad;
+			sourceTree = "<group>";
+		};
 		89B891481FF3502900F7E3CC /* AudioUnit */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +408,15 @@
 				89B8914A1FF3508E00F7E3CC /* LQPlayer.m */,
 			);
 			path = AudioUnit;
+			sourceTree = "<group>";
+		};
+		89C343DB2003595D000F2CB1 /* LQTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				89C343DC20035986000F2CB1 /* LQTabBar.h */,
+				89C343DD20035986000F2CB1 /* LQTabBar.m */,
+			);
+			path = LQTabbar;
 			sourceTree = "<group>";
 		};
 		89D43C4F1FC2D49100C72415 = {
@@ -396,6 +440,9 @@
 		89D43C5A1FC2D49100C72415 /* Accumulate */ = {
 			isa = PBXGroup;
 			children = (
+				89918B9E2061F2050088A695 /* BaseStudy */,
+				89A18DD020085D6700BAFCA5 /* DownLoad */,
+				89C343DB2003595D000F2CB1 /* LQTabbar */,
 				899004911FF4EEC3006AE9BE /* CoreML */,
 				89B891481FF3502900F7E3CC /* AudioUnit */,
 				89D43DAB1FC2D73A00C72415 /* WYNews */,
@@ -427,6 +474,8 @@
 				89D43C5C1FC2D49100C72415 /* AppDelegate.m */,
 				89D43C5E1FC2D49100C72415 /* ViewController.h */,
 				89D43C5F1FC2D49100C72415 /* ViewController.m */,
+				8990169A20452F1D002A141B /* TestModel.h */,
+				8990169B20452F1D002A141B /* TestModel.m */,
 				89CBF4861FECDC5E001C0F4F /* LQThread.h */,
 				89CBF4871FECDC5E001C0F4F /* LQThread.m */,
 				89D43C611FC2D49100C72415 /* Main.storyboard */,
@@ -1025,6 +1074,7 @@
 			files = (
 				89BEA4E81FF5F75B00B3335E /* Inceptionv3.mlmodel in Sources */,
 				89D43CC81FC2D6E900C72415 /* OderDetailCell.m in Sources */,
+				89A18DD320085D8900BAFCA5 /* LLQDownLoader.m in Sources */,
 				89D43D031FC2D70500C72415 /* LLQDrawView.m in Sources */,
 				89D43D6E1FC2D71E00C72415 /* SCGenericChart.m in Sources */,
 				89D43D651FC2D71E00C72415 /* StatusItem.m in Sources */,
@@ -1041,6 +1091,7 @@
 				89D43D9D1FC2D72500C72415 /* MASConstraint.m in Sources */,
 				89D43DB21FC2D73A00C72415 /* WYNewsViewController.m in Sources */,
 				89D43D741FC2D71E00C72415 /* LLQSelfCellController.m in Sources */,
+				89C343DE20035986000F2CB1 /* LQTabBar.m in Sources */,
 				89D43D021FC2D70500C72415 /* LLQBezierPath.m in Sources */,
 				89D43D9F1FC2D72500C72415 /* MASLayoutConstraint.m in Sources */,
 				89D43DAA1FC2D73400C72415 /* LLQVedioViewController.m in Sources */,
@@ -1081,6 +1132,7 @@
 				89D43D201FC2D71200C72415 /* LLQVendorToll.m in Sources */,
 				89D43C6B1FC2D49100C72415 /* main.m in Sources */,
 				89D43CBA1FC2D6DC00C72415 /* LLQGCDViewController.m in Sources */,
+				894B751F2063BB53004D9927 /* SocketViewController.m in Sources */,
 				89D43CA61FC2D6BC00C72415 /* LLQBuDeJieViewController.m in Sources */,
 				89D43CBE1FC2D6E200C72415 /* Model.m in Sources */,
 				89D43CB61FC2D6C500C72415 /* UIImage+LLQImage.m in Sources */,
@@ -1103,12 +1155,14 @@
 				89D43CD81FC2D6F700C72415 /* LLQStepModel.m in Sources */,
 				89D43CA71FC2D6BC00C72415 /* LLQNavigationViewController.m in Sources */,
 				89D43DA11FC2D72500C72415 /* MASViewConstraint.m in Sources */,
+				8990169C20452F1D002A141B /* TestModel.m in Sources */,
 				89D43D121FC2D70500C72415 /* LLQScanViewController.m in Sources */,
 				89D43D0D1FC2D70500C72415 /* HeaderCollectionReusableView.m in Sources */,
 				89D43D6A1FC2D71E00C72415 /* SCChart.m in Sources */,
 				89D43D1E1FC2D71200C72415 /* PullExtendViewController.m in Sources */,
 				89D43D6B1FC2D71E00C72415 /* SCChartLabel.m in Sources */,
 				89D43D761FC2D71E00C72415 /* LLQStatusCellController.m in Sources */,
+				89918BA12061F2610088A695 /* BasisViewController.m in Sources */,
 				89D43D6D1FC2D71E00C72415 /* SCColor.m in Sources */,
 				89D43C5D1FC2D49100C72415 /* AppDelegate.m in Sources */,
 				89D43CB51FC2D6C500C72415 /* NSObject+Model.m in Sources */,

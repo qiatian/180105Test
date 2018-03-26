@@ -55,7 +55,7 @@
     "Host: www.baidu.com\n\n";//baidu.com
     [self sendMsgAndRecv:request];//@"百度 你好"
 }
--(void)connectionWithPort:(int)port addr:(const char *)addr{
+- (void)connectionWithPort:(int)port addr:(const char *)addr{
     
     struct sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
@@ -68,7 +68,7 @@
         NSLog(@"连接失败");
     }
 }
--(void)sendMsgAndRecv:(NSString*)sendMsg{
+- (void)sendMsgAndRecv:(NSString*)sendMsg{
 //    NSString *sendMsg = @"hello";
     ssize_t sendLen = send(_clientSocket, sendMsg.UTF8String, strlen(sendMsg.UTF8String), 0);
     NSLog(@"发送了%zd个字节",sendLen);

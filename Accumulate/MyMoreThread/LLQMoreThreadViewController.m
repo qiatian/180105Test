@@ -74,7 +74,8 @@
 }
 #pragma mark 界面布局
 -(void)layoutUI{
-    _imageView =[[UIImageView alloc]initWithFrame:[UIScreen mainScreen].applicationFrame];
+    //[UIScreen mainScreen].applicationFrame
+    _imageView =[[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _imageView.contentMode=UIViewContentModeScaleAspectFit;
     [self.view addSubview:_imageView];
     
@@ -89,16 +90,27 @@
 }
 #pragma mark 将图片显示到界面
 -(void)updateImage:(NSData *)imageData{
+    //转换图片格式
     UIImage *image=[UIImage imageWithData:imageData];
+    //显示UI
     _imageView.image=image;
 }
 
 #pragma mark 请求图片数据
 -(NSData *)requestData{
+    
+    CFTimeInterval startC = CFAbsoluteTimeGetCurrent();//Double类型
+    NSDate *start = [NSDate date];//获得当前的时间
     //对于多线程操作建议把线程操作放到@autoreleasepool中
     @autoreleasepool {
+        //确定URL
         NSURL *url=[NSURL URLWithString:@"http://avatar.csdn.net/2/C/D/1_totogo2010.jpg"];
+        //根据URL把图片下载到本地；图片是二进制数据
         NSData *data=[NSData dataWithContentsOfURL:url];
+        NSDate *end = [NSDate date];//获得当前的时间
+        CFTimeInterval endC = CFAbsoluteTimeGetCurrent();
+        NSLog(@"%f",endC - startC);
+        NSLog(@"%f",[end timeIntervalSinceDate:start]);//获得代码段执行时间
         return data;
     }
 }
@@ -114,6 +126,10 @@
      waitUntilDone:是否线程任务完成执行
      */
     [self performSelectorOnMainThread:@selector(updateImage:) withObject:data waitUntilDone:YES];
+    
+    //方式二 直接调用方法刷新图片
+    UIImage *image=[UIImage imageWithData:data];
+    [_imageView performSelectorOnMainThread:@selector(setImage:) withObject:image waitUntilDone:YES];
 }
 
 #pragma mark 多线程下载图片

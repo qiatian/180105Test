@@ -12,15 +12,16 @@
 
 const uint32_t CONST_BUFFER_SIZE = 0x10000;
 #define INPUT_BUS 1 //输入
-#define OUTPUT_BUS 0 //输出
+#define OUTPUT_BUS 0 //输出 播放
 #define CONST_BUFFER_SIZE 2048*2*10
 @implementation LQPlayer
 {
-    AudioUnit audioUnit;
+    AudioUnit audioUnit;//单元
     AudioBufferList *bufferList;//缓存列表
     NSInputStream *inputStream;//需要播放的文件流
     Byte *buffer;//录播一起时候 新增属性
 }
+//播放
 -(void)play{
     //播放需要初始化一个Player
     [self initPlayer];
