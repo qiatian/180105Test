@@ -6,8 +6,9 @@
 //  Copyright © 2017年 sanjingrihua. All rights reserved.
 //
 
-#import "Person.h"
+//#import "Person.h"
+#import <Foundation/Foundation.h>
 
-@interface SubPerson : Person
+@interface SubPerson : NSObject
 
 @end

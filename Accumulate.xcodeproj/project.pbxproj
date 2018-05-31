@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		894B751F2063BB53004D9927 /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894B751E2063BB53004D9927 /* SocketViewController.m */; };
+		898D8569207E0EE800B76EB9 /* Person+mult.m in Sources */ = {isa = PBXBuildFile; fileRef = 898D8568207E0EE800B76EB9 /* Person+mult.m */; };
 		899004941FF4EF10006AE9BE /* CMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899004931FF4EF10006AE9BE /* CMViewController.swift */; };
 		8990169C20452F1D002A141B /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990169B20452F1D002A141B /* TestModel.m */; };
 		89918BA12061F2610088A695 /* BasisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89918BA02061F2610088A695 /* BasisViewController.m */; };
+		89A006E9207CA1FF006EA07C /* Block1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A006E8207CA1FF006EA07C /* Block1ViewController.m */; };
 		89A18DD320085D8900BAFCA5 /* LLQDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A18DD220085D8900BAFCA5 /* LLQDownLoader.m */; };
+		89A731ED20B3C2F30024A80B /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A731EC20B3C2F30024A80B /* Video.m */; };
+		89A731F920B418D70024A80B /* NewTestPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A731F820B418D70024A80B /* NewTestPerson.m */; };
 		89B8914B1FF3508E00F7E3CC /* LQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B8914A1FF3508E00F7E3CC /* LQPlayer.m */; };
 		89BEA4E01FF5DE4A00B3335E /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89BEA4DF1FF5DE4A00B3335E /* puppy.jpg */; };
 		89BEA4E81FF5F75B00B3335E /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89BEA4E71FF5F75B00B3335E /* Inceptionv3.mlmodel */; };
@@ -129,14 +133,22 @@
 		69DF942614FA1E79BF9E773A /* Pods_Accumulate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accumulate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		894B751D2063BB53004D9927 /* SocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketViewController.h; sourceTree = "<group>"; };
 		894B751E2063BB53004D9927 /* SocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketViewController.m; sourceTree = "<group>"; };
+		898D8567207E0EE800B76EB9 /* Person+mult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+mult.h"; sourceTree = "<group>"; };
+		898D8568207E0EE800B76EB9 /* Person+mult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+mult.m"; sourceTree = "<group>"; };
 		899004921FF4EF0F006AE9BE /* Accumulate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accumulate-Bridging-Header.h"; sourceTree = "<group>"; };
 		899004931FF4EF10006AE9BE /* CMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMViewController.swift; sourceTree = "<group>"; };
 		8990169A20452F1D002A141B /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		8990169B20452F1D002A141B /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		89918B9F2061F2610088A695 /* BasisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasisViewController.h; sourceTree = "<group>"; };
 		89918BA02061F2610088A695 /* BasisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasisViewController.m; sourceTree = "<group>"; };
+		89A006E7207CA1FF006EA07C /* Block1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block1ViewController.h; sourceTree = "<group>"; };
+		89A006E8207CA1FF006EA07C /* Block1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block1ViewController.m; sourceTree = "<group>"; };
 		89A18DD120085D8900BAFCA5 /* LLQDownLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLQDownLoader.h; sourceTree = "<group>"; };
 		89A18DD220085D8900BAFCA5 /* LLQDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLQDownLoader.m; sourceTree = "<group>"; };
+		89A731EB20B3C2F30024A80B /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		89A731EC20B3C2F30024A80B /* Video.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		89A731F720B418D70024A80B /* NewTestPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewTestPerson.h; sourceTree = "<group>"; };
+		89A731F820B418D70024A80B /* NewTestPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTestPerson.m; sourceTree = "<group>"; };
 		89B891491FF3508E00F7E3CC /* LQPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQPlayer.h; sourceTree = "<group>"; };
 		89B8914A1FF3508E00F7E3CC /* LQPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQPlayer.m; sourceTree = "<group>"; };
 		89BEA4DF1FF5DE4A00B3335E /* puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy.jpg; sourceTree = "<group>"; };
@@ -386,8 +398,19 @@
 			children = (
 				89918B9F2061F2610088A695 /* BasisViewController.h */,
 				89918BA02061F2610088A695 /* BasisViewController.m */,
+				89A731EB20B3C2F30024A80B /* Video.h */,
+				89A731EC20B3C2F30024A80B /* Video.m */,
 			);
 			path = BaseStudy;
+			sourceTree = "<group>";
+		};
+		89A006E6207CA1D4006EA07C /* DeepBlock */ = {
+			isa = PBXGroup;
+			children = (
+				89A006E7207CA1FF006EA07C /* Block1ViewController.h */,
+				89A006E8207CA1FF006EA07C /* Block1ViewController.m */,
+			);
+			path = DeepBlock;
 			sourceTree = "<group>";
 		};
 		89A18DD020085D6700BAFCA5 /* DownLoad */ = {
@@ -440,6 +463,7 @@
 		89D43C5A1FC2D49100C72415 /* Accumulate */ = {
 			isa = PBXGroup;
 			children = (
+				89A006E6207CA1D4006EA07C /* DeepBlock */,
 				89918B9E2061F2050088A695 /* BaseStudy */,
 				89A18DD020085D6700BAFCA5 /* DownLoad */,
 				89C343DB2003595D000F2CB1 /* LQTabbar */,
@@ -766,10 +790,14 @@
 				89D43D2A1FC2D71D00C72415 /* NSObject+Property.m */,
 				89D43D2B1FC2D71D00C72415 /* Person.h */,
 				89D43D2C1FC2D71D00C72415 /* Person.m */,
+				898D8567207E0EE800B76EB9 /* Person+mult.h */,
+				898D8568207E0EE800B76EB9 /* Person+mult.m */,
 				89D43D2D1FC2D71D00C72415 /* StatusItem.h */,
 				89D43D2E1FC2D71D00C72415 /* StatusItem.m */,
 				89D43D2F1FC2D71D00C72415 /* SubPerson.h */,
 				89D43D301FC2D71D00C72415 /* SubPerson.m */,
+				89A731F720B418D70024A80B /* NewTestPerson.h */,
+				89A731F820B418D70024A80B /* NewTestPerson.m */,
 				89D43D311FC2D71D00C72415 /* UIImage+Image.h */,
 				89D43D321FC2D71D00C72415 /* UIImage+Image.m */,
 			);
@@ -1101,6 +1129,7 @@
 				89D43CA41FC2D6BC00C72415 /* LLQADViewController.m in Sources */,
 				89D43D6F1FC2D71E00C72415 /* SCLineChart.m in Sources */,
 				89D43CAC1FC2D6BD00C72415 /* SelectMorePhotosViewController.m in Sources */,
+				89A731F920B418D70024A80B /* NewTestPerson.m in Sources */,
 				89D43D9E1FC2D72500C72415 /* MASConstraintMaker.m in Sources */,
 				89D43D731FC2D71E00C72415 /* UICountingLabel.m in Sources */,
 				89D43CD91FC2D6F700C72415 /* LLQSteps.m in Sources */,
@@ -1135,6 +1164,7 @@
 				894B751F2063BB53004D9927 /* SocketViewController.m in Sources */,
 				89D43CA61FC2D6BC00C72415 /* LLQBuDeJieViewController.m in Sources */,
 				89D43CBE1FC2D6E200C72415 /* Model.m in Sources */,
+				898D8569207E0EE800B76EB9 /* Person+mult.m in Sources */,
 				89D43CB61FC2D6C500C72415 /* UIImage+LLQImage.m in Sources */,
 				89D43CAA1FC2D6BD00C72415 /* LLQTabBar.m in Sources */,
 				89D43DA41FC2D72500C72415 /* View+MASAdditions.m in Sources */,
@@ -1158,8 +1188,10 @@
 				8990169C20452F1D002A141B /* TestModel.m in Sources */,
 				89D43D121FC2D70500C72415 /* LLQScanViewController.m in Sources */,
 				89D43D0D1FC2D70500C72415 /* HeaderCollectionReusableView.m in Sources */,
+				89A731ED20B3C2F30024A80B /* Video.m in Sources */,
 				89D43D6A1FC2D71E00C72415 /* SCChart.m in Sources */,
 				89D43D1E1FC2D71200C72415 /* PullExtendViewController.m in Sources */,
+				89A006E9207CA1FF006EA07C /* Block1ViewController.m in Sources */,
 				89D43D6B1FC2D71E00C72415 /* SCChartLabel.m in Sources */,
 				89D43D761FC2D71E00C72415 /* LLQStatusCellController.m in Sources */,
 				89918BA12061F2610088A695 /* BasisViewController.m in Sources */,

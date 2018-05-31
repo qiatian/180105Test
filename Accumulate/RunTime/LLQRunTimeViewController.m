@@ -43,8 +43,9 @@
 #import "NSObject+Property.h"
 #import "NSDictionary+Property.h"
 #import "NSObject+Model.h"
+#import "Person+mult.h"
 @interface LLQRunTimeViewController ()
-
+@property(nonatomic,strong)Person *person;
 @end
 
 @implementation LLQRunTimeViewController
@@ -127,7 +128,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//使用runtime来交换两个方法
+- (void)exchangedMethod{
+    //获取方法
+    Method m1 = class_getInstanceMethod([self.person class], @selector(firstMethod));
+    Method m2 = class_getInstanceMethod([self.person class], @selector(secondMethod));
+    
+    //交换
+    method_exchangeImplementations(m1, m2);
+}
+//使用runtime动态添加方法
+- (void)addMehtod{
+    //"v@:@" v表示void, @表示id类型, ：表示SEL
+    class_addMethod([self.person class], @selector(gohome:), (IMP)runMethod, "v@:@");
+}
+//id self,SEL _cmd是两个默认参数
+void runMethod(id self,SEL _cmd, NSString *miles){
+    
+}
 /*
 #pragma mark - Navigation
 

@@ -47,4 +47,10 @@ void aaa(id self,SEL _cmd,NSNumber *meter){
 -(void)test{
     NSLog(@"------%@------%@---%@----%@",[self class],[super class],[self superclass],[super superclass]);
 }
+- (void)firstMethod{
+    NSLog(@"firstMethod");
+}
+- (void)secondMethod{
+    NSLog(@"secondMethod");
+}
 @end

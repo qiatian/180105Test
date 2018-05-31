@@ -15,4 +15,8 @@
 -(void)play;
 -(void)test;
 +(instancetype)modelWithDict:(NSDictionary *)dic;
+
+//动态交换方法
+- (void)firstMethod;
+- (void)secondMethod;
 @end
