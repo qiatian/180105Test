@@ -21,6 +21,9 @@
 		89BEA4E81FF5F75B00B3335E /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89BEA4E71FF5F75B00B3335E /* Inceptionv3.mlmodel */; };
 		89C343DE20035986000F2CB1 /* LQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C343DD20035986000F2CB1 /* LQTabBar.m */; };
 		89CBF4881FECDC5E001C0F4F /* LQThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CBF4871FECDC5E001C0F4F /* LQThread.m */; };
+		89D395E120D2512E00BFC6ED /* SwiftLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D395E020D2512E00BFC6ED /* SwiftLog.swift */; };
+		89D395E420D2522B00BFC6ED /* ARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D395E320D2522B00BFC6ED /* ARKitViewController.swift */; };
+		89D395E620D252B000BFC6ED /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89D395E520D252B000BFC6ED /* Inceptionv3.mlmodel */; };
 		89D43C5D1FC2D49100C72415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D43C5C1FC2D49100C72415 /* AppDelegate.m */; };
 		89D43C601FC2D49100C72415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D43C5F1FC2D49100C72415 /* ViewController.m */; };
 		89D43C631FC2D49100C72415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D43C611FC2D49100C72415 /* Main.storyboard */; };
@@ -157,6 +160,9 @@
 		89C343DD20035986000F2CB1 /* LQTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQTabBar.m; sourceTree = "<group>"; };
 		89CBF4861FECDC5E001C0F4F /* LQThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQThread.h; sourceTree = "<group>"; };
 		89CBF4871FECDC5E001C0F4F /* LQThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQThread.m; sourceTree = "<group>"; };
+		89D395E020D2512E00BFC6ED /* SwiftLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLog.swift; sourceTree = "<group>"; };
+		89D395E320D2522B00BFC6ED /* ARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
+		89D395E520D252B000BFC6ED /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		89D43C581FC2D49100C72415 /* Accumulate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accumulate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D43C5B1FC2D49100C72415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89D43C5C1FC2D49100C72415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -442,6 +448,23 @@
 			path = LQTabbar;
 			sourceTree = "<group>";
 		};
+		89D395DF20D250FD00BFC6ED /* 自定义Log */ = {
+			isa = PBXGroup;
+			children = (
+				89D395E020D2512E00BFC6ED /* SwiftLog.swift */,
+			);
+			path = "自定义Log";
+			sourceTree = "<group>";
+		};
+		89D395E220D2520A00BFC6ED /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				89D395E520D252B000BFC6ED /* Inceptionv3.mlmodel */,
+				89D395E320D2522B00BFC6ED /* ARKitViewController.swift */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
 		89D43C4F1FC2D49100C72415 = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +486,8 @@
 		89D43C5A1FC2D49100C72415 /* Accumulate */ = {
 			isa = PBXGroup;
 			children = (
+				89D395E220D2520A00BFC6ED /* ARKit */,
+				89D395DF20D250FD00BFC6ED /* 自定义Log */,
 				89A006E6207CA1D4006EA07C /* DeepBlock */,
 				89918B9E2061F2050088A695 /* BaseStudy */,
 				89A18DD020085D6700BAFCA5 /* DownLoad */,
@@ -1101,6 +1126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89BEA4E81FF5F75B00B3335E /* Inceptionv3.mlmodel in Sources */,
+				89D395E620D252B000BFC6ED /* Inceptionv3.mlmodel in Sources */,
 				89D43CC81FC2D6E900C72415 /* OderDetailCell.m in Sources */,
 				89A18DD320085D8900BAFCA5 /* LLQDownLoader.m in Sources */,
 				89D43D031FC2D70500C72415 /* LLQDrawView.m in Sources */,
@@ -1111,6 +1137,7 @@
 				89D43D701FC2D71E00C72415 /* SCPieChart.m in Sources */,
 				89D43D0A1FC2D70500C72415 /* CCVViewController.m in Sources */,
 				89D43D751FC2D71E00C72415 /* LLQStatusCell.m in Sources */,
+				89D395E420D2522B00BFC6ED /* ARKitViewController.swift in Sources */,
 				89D43D0E1FC2D70500C72415 /* LLQPageView.m in Sources */,
 				89D43D631FC2D71E00C72415 /* NSObject+Property.m in Sources */,
 				89D43D081FC2D70500C72415 /* LLQTicketViewController.m in Sources */,
@@ -1172,6 +1199,7 @@
 				89D43DA21FC2D72500C72415 /* NSArray+MASAdditions.m in Sources */,
 				89D43D1F1FC2D71200C72415 /* LLQKeyChainTool.m in Sources */,
 				89D43D771FC2D71E00C72415 /* LLQTestCell.m in Sources */,
+				89D395E120D2512E00BFC6ED /* SwiftLog.swift in Sources */,
 				89D43D681FC2D71E00C72415 /* SCBar.m in Sources */,
 				89D43CA01FC2D6BC00C72415 /* LunarCalendar.m in Sources */,
 				89B8914B1FF3508E00F7E3CC /* LQPlayer.m in Sources */,
